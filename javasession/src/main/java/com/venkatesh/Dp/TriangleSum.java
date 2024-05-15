@@ -17,7 +17,14 @@ public class TriangleSum {
             }
         }
         System.out.println(findMinSum(triangle, 0, 0, dp));
-        System.out.println(Arrays.deepToString(dp));
+        int maxSum = Integer.MIN_VALUE;
+        int[][] square = {
+                { 1, 2, 10, 4 },
+                { 100, 3, 2, 1 },
+                { 1, 1, 20, 2 },
+                { 1, 2, 2, 1 }
+        };
+       
 
     }
 
